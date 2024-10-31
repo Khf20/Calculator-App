@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Calculator App with JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div id="output">0</div>
+        </div>
+        <div class="buttons">
+            <!-- Scientific Functions Row -->
+            <button class="special" data-action="clear">AC</button>
+            <button class="operator" data-action="sqrt">√</button>
+            <button class="operator" data-action="square">x²</button>
+            <button class="operator" data-action="divide">÷</button>
+
+            <!-- Constants Row -->
+            <button class="operator" data-action="pi">π</button>
+            <button class="operator" data-action="e">e</button>
+            <button class="operator" data-action="power">^</button>
+            <button class="operator" data-action="multiply">×</button>
+
+            <!-- Numbers and Basic Operators -->
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator" data-action="subtract">-</button>
+
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator" data-action="add">+</button>
+
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator" data-action="equals">=</button>
+
+            <button class="number zero">0</button>
+            <button class="number" data-action="decimal">.</button>
+            <button class="operator" data-action="exp">EXP</button>
+            <button class="operator" data-action="percent">%</button>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
